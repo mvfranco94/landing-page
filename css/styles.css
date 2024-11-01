@@ -82,3 +82,34 @@
   background-color: #ffffff66;
   height: 240px;
 }
+
+/* Information */
+
+/* Detail */
+
+.detail h2 {
+  text-align: center;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  margin: 25px 0;
+}
+
+.detail > .cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.detail > .cards > .card {
+  flex-basis: 150px;
+  text-align: center;
+}
+
+.detail > .cards > .card > div {
+  width: 140px;
+  height: 140px;
+  margin: 10px auto;
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+}
