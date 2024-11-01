@@ -147,3 +147,40 @@
   font-weight: 900;
   font-size: 24px;
 }
+
+/* Signup */
+.sign-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+
+.sign-up .bg-blue {
+  height: 150px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  flex-basis: 800px;
+  border-radius: 10px;
+  display: flex;
+  padding: 25px 80px;
+  align-items: center;
+}
+
+.bg-blue :first-child{
+  margin: 0 auto 5px 0;
+}
+
+.bg-blue :first-child p {
+  font-weight: 300;
+}
+
+.bg-blue button {
+  background-color: transparent;
+  color: #f9faf8;
+  border: 2px solid #f9faf8;
+  border-radius: 10px;
+  padding: 10px 32px;
+  font-weight: normal;
+  font-size: 16px
+}
